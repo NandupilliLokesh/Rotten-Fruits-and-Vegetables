@@ -2,8 +2,9 @@
 flask
 numpy
 pandas
-tensorflow-cpu==2.15.0
+tensorflow
 pillow
 scikit-learn
 joblib
+
 
