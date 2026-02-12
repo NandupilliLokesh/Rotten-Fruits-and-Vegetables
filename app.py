@@ -21,7 +21,7 @@ with open("class_names.json", "r") as f:
 # keys come as strings → convert to int
 class_names = {int(k): v for k, v in class_names.items()}
 # Load model once (important!)
-model = load_model('healthy_vs_rotten.h5')
+model = load_model('healthy_vs_rotten.keras')
 
 @app.route('/')
 def home():
