@@ -1,10 +1,15 @@
+# from flask import Flask, render_template, request
+# from keras.models import load_model
+# #from keras.preprocessing.image import load_img, img_to_array
+
+# from keras.applications.vgg16 import preprocess_input
+# import numpy as np
+# import os
 from flask import Flask, render_template, request
-from keras.models import load_model
-from keras.preprocessing.image import load_img, img_to_array
-from keras.applications.vgg16 import preprocess_input
+from tensorflow.keras.models import load_model
+from tensorflow.keras.applications.vgg16 import preprocess_input
 import numpy as np
 import os
-
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
 
