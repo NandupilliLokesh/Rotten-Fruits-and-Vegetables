@@ -1,9 +1,6 @@
-﻿gunicorn
+tensorflow-cpu==2.15.0
 flask
+gunicorn
 numpy
-pandas
 pillow
-scikit-learn
-joblib
-tensorflow
-python
+pandas
